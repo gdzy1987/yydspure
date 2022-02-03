@@ -6,17 +6,17 @@
 ============Quantumultx===============
 [task_local]
 #发财挖宝
-40 6,17 * * * https://raw.githubusercontent.com/KingRan/JDJB/main/jd_fcwb.js, tag=发财挖宝, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true
+40 6,17 * * * https://raw.githubusercontent.com/okyyds/yydspure/master/jd_fcwb.js, tag=发财挖宝, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true
 
 ================Loon==============
 [Script]
-cron "40 6,17 * * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_fcwb.js,tag=发财挖宝
+cron "40 6,17 * * *" script-path=https://raw.githubusercontent.com/okyyds/yydspure/master/jd_fcwb.js,tag=发财挖宝
 
 ===============Surge=================
-发财挖宝 = type=cron,cronexp="40 6,17 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_fcwb.js
+发财挖宝 = type=cron,cronexp="40 6,17 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/okyyds/yydspure/master/jd_fcwb.js
 
 ============小火箭=========
-发财挖宝 = type=cron,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_fcwb.js, cronexpr="40 6,17 * * *", timeout=3600, enable=true
+发财挖宝 = type=cron,script-path=https://raw.githubusercontent.com/okyyds/yydspure/master/jd_fcwb.js, cronexpr="40 6,17 * * *", timeout=3600, enable=true
 
 * * */
 const $ = new Env('发财挖宝');

@@ -7,7 +7,7 @@ cron:22 6,18 * * *
 ============Quantumultx===============
 [task_local]
 #京东答题领金豆
-22 6,18 * 11,12 * https://raw.githubusercontent.com/KingRan/JDJB/main/jd_jddt.js, tag=京东答题领金豆, enabled=true
+22 6,18 * 11,12 * https://raw.githubusercontent.com/okyyds/yydspure/master/jd_jddt.js, tag=京东答题领金豆, enabled=true
  */
 
 const $ = new Env('京东答题领金豆');
